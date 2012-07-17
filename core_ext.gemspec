@@ -5,6 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Sean Behan"]
   gem.email         = ["inbox@seanbehan.com"]
   gem.description   = %q{Extensions to core}
+  gem.summary       = %q{Extensions to core}
   gem.homepage      = "http://github.com/gristmill/core_ext"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
